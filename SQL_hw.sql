@@ -62,7 +62,7 @@ LIMIT 1; -- film_id = 508
 -- 8. From store_id 1, how many customers have a last name ending with ‘es’? (use customer table)
 SELECT COUNT(*)
 FROM customer
-WHERE first_name LIKE '%es' AND store_id = 1; -- 2
+WHERE last_name LIKE '%es' AND store_id = 1; -- 13
 
 
 
